@@ -1,0 +1,27 @@
+{
+  "pdf_file": "EN_GBL_TSM_S4X.pdf",
+  "status": "completed",
+  "extracted_pages": 67,
+  "created_chunks": 511,
+  "stored_embeddings": 511,
+  "error": null,
+  "failed_embeddings": 0,
+  "collection_stats": {
+    "collection_name": "pdf_embeddings",
+    "total_chunks": 511,
+    "model_name": "all-MiniLM-L6-v2",
+    "db_directory": "db",
+    "sample_metadata": {
+      "chunk_index": 0,
+      "page_number": 1,
+      "table_data": "",
+      "doc_name": "EN_GBL_TSM_S4X",
+      "image_paths": "output\\images\\EN_GBL_TSM_S4X_page1_img0_7fb44cd9.jp2",
+      "section": "Main Content",
+      "char_count": 112,
+      "token_count": 18,
+      "table_flag": false,
+      "image_flag": true
+    }
+  }
+}
