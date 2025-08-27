@@ -1,0 +1,42 @@
+{
+  "extraction": {
+    "input_directory": "inputs",
+    "output_directory": "outputs",
+    "credentials_file": "pdfservices-api-credentials.json",
+    "extract_elements": ["TEXT", "TABLES"],
+    "max_file_size_mb": 100,
+    "supported_formats": [".pdf"]
+  },
+  "image_extraction": {
+    "extract_captions": true,
+    "caption_search_distance": 100,
+    "min_image_size": 50,
+    "extract_bounds": true,
+    "extract_placement": true
+  },
+  "table_extraction": {
+    "extract_structure": true,
+    "extract_data": true,
+    "preserve_formatting": true,
+    "min_table_size": 2
+  },
+  "verification": {
+    "verify_structure": true,
+    "verify_content": true,
+    "compare_with_original": true,
+    "generate_reports": true
+  },
+  "output_format": {
+    "include_metadata": true,
+    "include_bounds": true,
+    "include_font_info": false,
+    "include_attributes": true,
+    "pretty_print": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(levelname)s - %(message)s",
+    "save_logs": true,
+    "log_file": "extraction.log"
+  }
+}
